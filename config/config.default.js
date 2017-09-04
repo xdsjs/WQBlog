@@ -1,12 +1,8 @@
 'use strict';
 
-module.exports = appInfo => {
-  const config = {};
+exports.keys = this.name + '_1504281713204_8738';
 
-  // should change to your own
-  config.keys = appInfo.name + '_1504281713204_8738';
-
-  // add your config here
-
-  return config;
+exports.mongoose = {
+  url: 'mongodb://127.0.0.1/WQBlog',
+  options: {},
 };
