@@ -1,1 +1,13 @@
-coverage
+node_modules/
+cache/
+coverage/
+preview/
+doc/
+_site/
+.tmp/
+.git/
+dist/
+mock/
+webpack.*
+www/
+src/contexts/
